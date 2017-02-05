@@ -41,6 +41,7 @@ figure {
 .full-width {
   margin-top: 10px;
   width: 100vw;
+  height: 600px;
   position: relative;
   left: 50%;
   right: 50%;
@@ -112,7 +113,7 @@ img {
 
 .left-nav {
   float: left;
-  width: 100px;
+  width: 400px;
   /*display: inline;*/
 }
 .right-nav {
@@ -122,17 +123,3 @@ img {
   width: 650px;
   /*display: inline;*/
 }
-
-
-.sidebar {
-  margin: 0;
-  padding: 0;
-  background-color: #FFD54F;
-  height: 500px;
-
-  li {
-    display: inline;
-  }
-}
-
-
