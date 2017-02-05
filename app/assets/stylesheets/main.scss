@@ -1,3 +1,4 @@
+$nav-color: #ECEFF1;
 
 * {
   box-sizing: border-box;
@@ -39,7 +40,7 @@ figure {
 }
 
 .full-width {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   width: 100vw;
   height: 600px;
   position: relative;
@@ -69,7 +70,7 @@ img {
   top: 0px;
   width: 100%;
   padding: 5px;
-  background-color: #ECEFF1;
+  background-color: $nav-color;
   color: white;
 
   span {
@@ -122,4 +123,9 @@ img {
   right: 0;
   width: 650px;
   /*display: inline;*/
+}
+
+.image-divider {
+  background-color: $nav-color;
+  height: 15px;
 }
