@@ -34,7 +34,12 @@ body {
   padding: 5px;
 }
 
+figure {
+  margin: 0;
+}
+
 .full-width {
+  margin-top: 10px;
   width: 100vw;
   position: relative;
   left: 50%;
@@ -47,29 +52,51 @@ body {
   }
 }
 
-figure {
-  margin: 0;
-}
 
 img {
   width: 100%;
   height: 100%;
 }
+
+.nav-contents {
+  position: relative;
+}
+
 .nav {
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  width: 100%;
   padding: 5px;
   background-color: #ECEFF1;
   color: white;
+
+  span {
+    margin-top: 10px;
+  }
 
   li {
     padding: 5px;
     display: inline;
   }
 
-  ul {
+  .right {
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-align: right;
+    /*width:50%;*/
+  }
+
+  .left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    color: black;
+    /*width: 50%;*/
+    margin-right: 0px;
   }
 
   a {
@@ -77,11 +104,25 @@ img {
   }
 
   .img {
-    width: 40px;
+    width: 35px;
     height: 35px;
     padding: 5px;
   }
 }
+
+.left-nav {
+  float: left;
+  width: 100px;
+  /*display: inline;*/
+}
+.right-nav {
+  /*position: absolute;*/
+  float: right;
+  right: 0;
+  width: 650px;
+  /*display: inline;*/
+}
+
 
 .sidebar {
   margin: 0;
